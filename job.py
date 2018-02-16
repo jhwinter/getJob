@@ -7,5 +7,5 @@ class Job:
         self.link = link
 
     def __repr__(self):
-        return 'Title: {}\nLocation: {}\nCompany: {}\nLink: {}\n'.format(self.title, self.location,
+        return 'Title: {}\nLocation: {}\nCompany: {}\nLink: {}'.format(self.title, self.location,
                                                                         self.company, self.link)
